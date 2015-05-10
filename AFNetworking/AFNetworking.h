@@ -23,6 +23,14 @@
 #import <Foundation/Foundation.h>
 #import <Availability.h>
 
+#if !COCOAPODS
+//! Project version number for AFNetworking.
+FOUNDATION_EXPORT double AFNetworkingVersionNumber;
+
+//! Project version string for AFNetworking.
+FOUNDATION_EXPORT const unsigned char AFNetworkingVersionString[];
+#endif
+
 #ifndef _AFNETWORKING_
     #define _AFNETWORKING_
 
