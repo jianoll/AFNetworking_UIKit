@@ -21,13 +21,9 @@
 
 #import "UIAlertView+AFNetworking.h"
 
+#import <AFNetworking/AFNetworking.h>
+
 #if defined(__IPHONE_OS_VERSION_MIN_REQUIRED) && !defined(AF_APP_EXTENSIONS)
-
-#import "AFURLConnectionOperation.h"
-
-#if __IPHONE_OS_VERSION_MIN_REQUIRED >= 70000
-#import "AFURLSessionManager.h"
-#endif
 
 static void AFGetAlertViewTitleAndMessageFromError(NSError *error, NSString * __autoreleasing *title, NSString * __autoreleasing *message) {
     if (error.localizedDescription && (error.localizedRecoverySuggestion || error.localizedFailureReason)) {

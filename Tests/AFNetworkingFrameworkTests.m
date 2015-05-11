@@ -6,4 +6,4 @@
 //  Copyright (c) 2015 Adam Sharp. All rights reserved.
 //
 
-#import <AFNetworking/AFNetworking.h>
+#import <AFNetworking_UIKit/AFNetworking_UIKit.h>

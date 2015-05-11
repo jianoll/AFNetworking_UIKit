@@ -21,15 +21,10 @@
 
 #import "UIProgressView+AFNetworking.h"
 
+#import <AFNetworking/AFNetworking.h>
 #import <objc/runtime.h>
 
 #if defined(__IPHONE_OS_VERSION_MIN_REQUIRED)
-
-#import "AFURLConnectionOperation.h"
-
-#if __IPHONE_OS_VERSION_MIN_REQUIRED >= 70000
-#import "AFURLSessionManager.h"
-#endif
 
 static void * AFTaskCountOfBytesSentContext = &AFTaskCountOfBytesSentContext;
 static void * AFTaskCountOfBytesReceivedContext = &AFTaskCountOfBytesReceivedContext;

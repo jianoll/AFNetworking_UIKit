@@ -21,12 +21,10 @@
 
 #import "UIButton+AFNetworking.h"
 
+#import <AFNetworking/AFNetworking.h>
 #import <objc/runtime.h>
 
 #if defined(__IPHONE_OS_VERSION_MIN_REQUIRED)
-
-#import "AFURLResponseSerialization.h"
-#import "AFHTTPRequestOperation.h"
 
 #import "UIImageView+AFNetworking.h"
 

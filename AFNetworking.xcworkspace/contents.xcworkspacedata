@@ -1,63 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Workspace
    version = "1.0">
-   <Group
-      location = "group:UIKit+AFNetworking"
-      name = "UIKit+AFNetworking">
-      <FileRef
-         location = "group:UIKit+AFNetworking.h">
-      </FileRef>
-      <FileRef
-         location = "group:AFNetworkActivityIndicatorManager.h">
-      </FileRef>
-      <FileRef
-         location = "group:AFNetworkActivityIndicatorManager.m">
-      </FileRef>
-      <FileRef
-         location = "group:UIActivityIndicatorView+AFNetworking.h">
-      </FileRef>
-      <FileRef
-         location = "group:UIActivityIndicatorView+AFNetworking.m">
-      </FileRef>
-      <FileRef
-         location = "group:UIAlertView+AFNetworking.h">
-      </FileRef>
-      <FileRef
-         location = "group:UIAlertView+AFNetworking.m">
-      </FileRef>
-      <FileRef
-         location = "group:UIButton+AFNetworking.h">
-      </FileRef>
-      <FileRef
-         location = "group:UIButton+AFNetworking.m">
-      </FileRef>
-      <FileRef
-         location = "group:UIImageView+AFNetworking.h">
-      </FileRef>
-      <FileRef
-         location = "group:UIImageView+AFNetworking.m">
-      </FileRef>
-      <FileRef
-         location = "group:UIProgressView+AFNetworking.h">
-      </FileRef>
-      <FileRef
-         location = "group:UIProgressView+AFNetworking.m">
-      </FileRef>
-      <FileRef
-         location = "group:UIWebView+AFNetworking.h">
-      </FileRef>
-      <FileRef
-         location = "group:UIWebView+AFNetworking.m">
-      </FileRef>
-      <FileRef
-         location = "group:UIRefreshControl+AFNetworking.h">
-      </FileRef>
-      <FileRef
-         location = "group:UIRefreshControl+AFNetworking.m">
-      </FileRef>
-   </Group>
    <FileRef
-      location = "group:AFNetworking.xcodeproj">
+      location = "group:AFNetworking-UIKit.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Tests/AFNetworking Tests.xcodeproj">

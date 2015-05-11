@@ -21,13 +21,9 @@
 
 #import "UIActivityIndicatorView+AFNetworking.h"
 
+#import <AFNetworking/AFNetworking.h>
+
 #if defined(__IPHONE_OS_VERSION_MIN_REQUIRED)
-
-#import "AFHTTPRequestOperation.h"
-
-#if __IPHONE_OS_VERSION_MIN_REQUIRED >= 70000
-#import "AFURLSessionManager.h"
-#endif
 
 @implementation UIActivityIndicatorView (AFNetworking)
 

@@ -21,13 +21,9 @@
 
 #import "AFNetworkActivityIndicatorManager.h"
 
+#import <AFNetworking/AFNetworking.h>
+
 #if defined(__IPHONE_OS_VERSION_MAX_ALLOWED)
-
-#import "AFHTTPRequestOperation.h"
-
-#if __IPHONE_OS_VERSION_MAX_ALLOWED >= 70000
-#import "AFURLSessionManager.h"
-#endif
 
 static NSTimeInterval const kAFNetworkActivityIndicatorInvisibilityDelay = 0.17;
 
